@@ -11,7 +11,7 @@ const config = {
 	title: "Jack's Economy",
 	tagline:
 		'Automatable Economy Mod For Modpacks or Servers with Create Integration',
-	favicon: '../img/favicon.png',
+	favicon: './img/favicon.png',
 
 	// Set the production url of your site here
 	url: 'https://scsupercraft.github.io',
