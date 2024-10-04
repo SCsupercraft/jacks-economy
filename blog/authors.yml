@@ -1,0 +1,14 @@
+flapjack:
+  name: Flapjack
+  title: Project Owner
+  url: https://www.youtube.com/@Flapjack12345
+  image_url: https://yt3.googleusercontent.com/zDZXaT22HkQzKKrB4yTnHh1X_270Bmj4FPmB7D0vZZsPuZeihHJwG_z9a2j78MVbjInvjNy26Q=s160-c-k-c0x00ffffff-no-rj
+  page: true
+
+scsupercraft:
+  name: SCsupercraft
+  url: https://github.com/SCsupercraft
+  image_url: https://avatars.githubusercontent.com/u/103709272?v=4
+  page: true
+  socials:
+    github: SCsupercraft

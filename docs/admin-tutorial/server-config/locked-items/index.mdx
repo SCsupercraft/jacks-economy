@@ -1,0 +1,30 @@
+---
+sidebar_position: 7
+description: 'Show names and stages for locked items.'
+---
+
+import gui1 from './gui1.png';
+import gui2 from './gui2.png';
+
+# Locked items
+
+:::note
+
+By default names and stages for locked items are hidden.
+
+:::
+
+As you can see **by default** when hovering over a **locked item** in the admin shop you **don't get any information** on what the item might be or **what you need to unlock it**.
+This can be changed using the config.
+
+<img src={gui1} width="550"/>
+
+By changing a few settings in the config you can get locked items to look like they do in the image below.
+
+<img src={gui2} width="550"/>
+
+There are two settings for changing how locked items in the admin shop should look.
+These are `showNamesForLockedAdminShopItems` and `showStageForLockedAdminShopItems`.
+By setting them to either **true or false** you can decide whether or not to **show the names of the locked items** and their **required game stage**.
+
+Similarly you can show the **required game stage** of **locked sell items** by setting `showStageForLockedSellItems` to true.

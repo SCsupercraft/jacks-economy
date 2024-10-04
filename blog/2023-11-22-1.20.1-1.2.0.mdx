@@ -1,0 +1,29 @@
+---
+slug: 1.20.1-1.2.0
+title: Version 1.2.0 for 1.20.1
+tags: [1.20.1, modUpdates]
+---
+
+import { CurseforgeLink } from '/src/components/content'
+
+:::warning
+
+May require regenerating config files. It is recommended to back up your saves!
+
+:::
+
+**Major Update!**
+
+New features:
+- **Optional [Game Stages](https://www.curseforge.com/minecraft/mc-mods/game-stages) integration!** Items in the admin shop can now be easily gated and unlocked via commands using Game Stages. Just install Game Stages and assign items in the admin shop a stage. 
+- **Admin Shop selling!** Players can now sell items in the admin shop! To set the admin shop sell price of items, simply right click on them in your inventory while in edit mode (you must be operator and in creative mode to access edit mode). Item sell prices are totally independent of buy prices, exporter, and importer prices. Selling items can also have independent Game Stages attached if you want players to be able to buy and sell certain items at different stages!<!-- truncate -->
+- **[One Item Currency Mode!](/docs/admin-tutorial/server-config/currency-modes#single-item-currency-mode)** In the server config, you can now toggle this mode to simplify the mod tremendously and allow for easier compatibility in heavily modded situations. One item currency mode restricts prices to whole numbers only and the only usable currency becomes the dollar bill. The wallet also becomes more like a backpack that stores the dollar bills physically and is no longer required to use the admin shop. This makes Jack's Economy function more like a vanilla economy based off of an item (like a diamond economy) which allows for the use of shop/vending blocks from other mods more easily (no juggling different currencies).
+NOTE: please back up your world before touching this setting! The mod will try to round existing decimal prices to the nearest whole number, but use at your own risk. Also wallets, existing currency, etc will have to be manually switched out!
+- **Client Configurable wallet HUD position!** You can now adjust the wallet HUD to make room for other HUD elements like minimaps or mana bars.
+- **Updated some textures slightly!**
+
+Bug fixes:
+- Fixed weird quarter/nickel deposit bug
+- Fixed items from the admin shop not stacking with normal items properly
+
+<CurseforgeLink link="https://www.curseforge.com/minecraft/mc-mods/flapjacks-economy/files/4888950"/>

@@ -1,0 +1,89 @@
+---
+sidebar_position: 3
+description: 'Learn about the different currency modes and how to enable them.'
+---
+
+import { Box } from '@site/src/components/content';
+
+import penny from './penny.png';
+import nickel from './nickel.png';
+import dime from './dime.png';
+import quarter from './quarter.png';
+import dollarBill from './dollar_bill.png';
+import fiveDollarBill from './five_dollar_bill.png';
+import tenDollarBill from './ten_dollar_bill.png';
+import twentyDollarBill from './twenty_dollar_bill.png';
+import fiftyDollarBill from './fifty_dollar_bill.png';
+import hundredDollarBill from './hundred_dollar_bill.png';
+import thousandDollarBill from './thousand_dollar_bill.png';
+import check from './check.png';
+
+# Currency Modes
+
+## Default Currency Mode
+
+:::note
+
+This mode is enabled by default.
+
+:::
+
+In default currency mode you have **4 types of wallets**, which can be found [here](/docs/player-guide/wallets#wallet-types).\
+These wallets store a **specified amount** of money defined in the server config.
+
+In this mode there are **multiple different items** which can all be **used as money**, these are
+
+<Box>
+<div style={{display: 'table-cell', paddingRight: 30}}>
+- The Penny
+<img src={penny} width="50"/>
+- The Nickel
+<img src={nickel} width="50"/>
+- The Dime
+<img src={dime} width="50"/>
+- The Quarter
+<img src={quarter} width="50"/>
+- The Dollar Bill
+<img src={dollarBill} width="50"/>
+- The Five Dollar Bill
+<img src={fiveDollarBill} width="50"/>
+</div>
+<div style={{display: 'table-cell'}}>
+- The Ten Dollar Bill
+<img src={tenDollarBill} width="50"/>
+- The Twenty Dollar Bill
+<img src={twentyDollarBill} width="50"/>
+- The Fifty Dollar Bill
+<img src={fiftyDollarBill} width="50"/>
+- The Hundred Dollar Bill
+<img src={hundredDollarBill} width="50"/>
+- The Thousand Dollar Bill
+<img src={thousandDollarBill} width="50"/>
+- The Check
+<img src={check} width="50"/>
+</div>
+</Box>
+
+## Single Item Currency Mode
+
+:::tip[RECOMMENDATION]
+
+Single item currency mode is recommended if you want a simplified/**vanilla-like** experience!
+
+:::
+
+In default currency mode you have **one type of wallet**, which can be found [here](/docs/player-guide/wallets#wallet-types).\
+This wallet has **15 slots** so it's **capacity** is **15 times the stacksize of the dollar bill**, which has a **stacksize of 64**.\
+You can **change the stacksize** of the dollar bill as shown in [this tutorial](/docs/admin-tutorial/server-config/changing-wallet-capacity#single-item-currency-mode).
+
+In this mode *only* the dollar bill can be used as money.
+
+If desired, you can use a [resource pack](https://minecraft.wiki/w/Resource_pack) to **change the texture** or name of the dollar bill if you would rather it look like a gold coin or something.
+
+Single item currency mode is useful for packs that wish for currency to be *more* physical (akin to a vanilla server economy that is based on, say, diamonds.)
+Single item currency mode **gets rid of** auto conversion, wallet tiers, and decimal points!
+The wallet becomes similar to a [shulker box](https://minecraft.wiki/w/Shulker_Box) and will simply **store your money as items** rather than converting it to a number.
+
+## Changing The Currency Mode
+
+If you want to use [single item currency mode](/docs/admin-tutorial/server-config/currency-modes#single-item-currency-mode) set `oneItemCurrencyMode` to true, otherwise set it to false.

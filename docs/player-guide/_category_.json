@@ -1,0 +1,8 @@
+{
+  "label": "Player Guide",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Everything you need to know as a player."
+  }
+}

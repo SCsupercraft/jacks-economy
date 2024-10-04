@@ -1,0 +1,106 @@
+---
+sidebar_position: 1
+description: 'Wallets are used to store money.'
+---
+
+import { Box } from '@site/src/components/content';
+
+import WalletTexture from './wallet.png';
+
+import gui1 from './gui-1.png';
+import gui1Input from './input.gif';
+import gui1Removing from './remove.gif';
+import gui1Overflow from './overflow.png';
+
+import gui2 from './gui-2.png';
+
+# Wallets
+
+## Wallet Texture
+
+The texture below is used by every wallet.
+
+<Box>
+	<img
+		src={WalletTexture}
+		width="100"
+	/>
+</Box>
+
+## Wallet Types
+
+| Name                | Capacity       | Mode        |
+| ------------------- | -------------- | ----------- |
+| Basic Wallet        | $1,000         | Default     |
+| Intermediate Wallet | $10,000        | Default     |
+| Advanced Wallet     | $1,000,000     | Default     |
+| The Phat Wallet     | $1,000,000,000 | Default     |
+| Wallet              | $960           | Single Item |
+
+If you want to know how to **change the capacity** of wallets and what the different **currency modes** do, check out our pages about the [Server Config](/docs/category/server-config).
+
+## Usage
+
+### Default Currency Mode
+
+This is the gui for the wallet in **default currency mode**.
+
+<img
+	src={gui1}
+	width="500"
+/>
+
+#### Inputting money
+
+You can input money by moving coins, bills and checks from your inventory into the wallet's gui.\
+This can be by **dragging** or **shift-clicking** the money you are inputting.
+
+You can also click the **deposit all** button to input all money in your inventory.\
+Stacks of bill and piles of coins **can not** be inputted, instead place and break them to get their uncompacted form.
+
+<img
+	src={gui1Input}
+	width="500"
+/>
+
+#### Removing money
+
+You can remove money by **left-clicking** the coins and bills in the wallet's gui.\
+By holding **CTRL** and **left-clicking** you can take out **10 items** in one click and by holding **SHIFT** you can take out a **whole stack**.
+
+You can also click the check icon to **write a check**, which can store an **infinite amount of money**.
+
+<img
+	src={gui1Removing}
+	width="500"
+/>
+
+#### Capacity overflow
+
+:::note
+
+In the future you will **no longer** be able to reach **capacity overflow**, instead you will either be **given change** or not be able to add the money in the first place.
+
+:::
+
+You may have seen a message saying **'Capacity Overflow Reached'** and wondered what is capacity overflow?\
+Capacity overflow is where you have **more money** in your wallet than it is **meant to hold**.
+
+**What happens when your wallet is overflowing?**
+
+While you will still be able to **use your wallet as normal** and **spend** the **extra money**, you can not put any more money into your wallet.
+
+<img
+	src={gui1Overflow}
+	width="500"
+/>
+
+### Single Item Currency Mode
+
+This is the gui for the wallet in **single item currency mode**.\
+It has **15 slots** where you can put dollar bills. These slots **act like a chest**.
+
+<img
+	src={gui2}
+	width="500"
+/>

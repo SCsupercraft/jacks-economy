@@ -1,0 +1,8 @@
+{
+	"label": "Admin Tutorial",
+	"position": 3,
+	"link": {
+		"type": "generated-index",
+		"description": "Everything you need to know as a modpack developer and/or server owner."
+	}
+}

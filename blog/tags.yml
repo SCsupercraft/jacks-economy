@@ -1,0 +1,28 @@
+modUpdates:
+  label: Mod Updates
+  permalink: /mod-updates
+
+1.19.2:
+  label: 1.19.2
+  permalink: /1.19.2
+  description: Minecraft 1.19.2
+
+1.20.1:
+  label: 1.20.1
+  permalink: /1.20.1
+  description: Minecraft 1.20.1
+
+docs:
+  label: Documentation
+  permalink: /documentation-updates
+  description: Updates to the documentation
+
+discord:
+  label: Discord Updates
+  permalink: /discord-updates
+  description: Updates to the discord server
+
+announcements:
+  label: Announcements
+  permalink: /announcements
+  description: Important announcements
