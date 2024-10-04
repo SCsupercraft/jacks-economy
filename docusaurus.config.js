@@ -56,8 +56,22 @@ const config = {
 			({
 				docs: {
 					sidebarPath: './sidebars.js',
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
+
+					includeCurrentVersion: false,
+					lastVersion: '1.20.1',
+					versions: {
+						'1.20.1': {
+							label: '1.20.1',
+							path: '/1.20.1',
+							badge: true,
+						},
+						'1.19.2': {
+							label: '1.19.2',
+							path: '/1.19.2',
+							badge: true,
+						},
+					},
+
 					editUrl:
 						'https://github.com/SCsupercraft/jacks-economy/tree/main/',
 				},
@@ -71,11 +85,8 @@ const config = {
 					postsPerPage: 'ALL',
 					blogSidebarTitle: 'All updates',
 					blogSidebarCount: 'ALL',
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
 					editUrl:
 						'https://github.com/SCsupercraft/jacks-economy/tree/main/',
-					// Useful options to enforce blogging best practices
 					onInlineTags: 'warn',
 					onInlineAuthors: 'warn',
 					onUntruncatedBlogPosts: 'ignore',
@@ -104,6 +115,10 @@ const config = {
 						label: 'Documentation',
 					},
 					{ to: '/updates', label: 'Updates', position: 'left' },
+					{
+						type: 'docsVersionDropdown',
+						position: 'right',
+					},
 					{
 						href: 'https://github.com/Khajiitos/JacksEconomy',
 						position: 'right',
