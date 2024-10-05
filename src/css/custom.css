@@ -44,6 +44,11 @@
 	background-color: var(--ifm-navbar-link-hover-color);
 }
 
+mark {
+	background-color: unset;
+	color: unset;
+}
+
 .aa-DetachedSearchButton {
 	width: 12.5rem !important;
 	height: 2rem !important;
