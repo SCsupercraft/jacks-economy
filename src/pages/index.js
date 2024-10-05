@@ -22,7 +22,7 @@ function HomepageHeader() {
 				<div className={styles.buttons}>
 					<Link
 						className="button button--secondary button--lg"
-						to="/docs/category/player-guide"
+						to="/docs/1.20.1/category/player-guide"
 					>
 						Player Guide
 					</Link>
@@ -33,7 +33,7 @@ function HomepageHeader() {
 				>
 					<Link
 						className="button button--secondary button--lg"
-						to="/docs/category/admin-tutorial"
+						to="/docs/1.20.1/category/admin-tutorial"
 					>
 						Admin Tutorial
 					</Link>
