@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 description: 'Whether or not items should be returned when creating manifests.'
+tags: ['config']
 ---
 
 # Returning Manifest Items

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 description: 'Change the capacity of any wallet.'
+tags: ['config', 'currency']
 ---
 
 # Changing The Capacity Of Wallets

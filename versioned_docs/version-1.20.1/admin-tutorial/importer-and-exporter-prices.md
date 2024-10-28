@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 description: 'Learn how set up importer and exporter prices.'
+tags: ['machines', 'currency', 'commands']
 ---
 
 # Importer And Exporter Prices

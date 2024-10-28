@@ -1,0 +1,24 @@
+machines:
+    label: 'Machines'
+    permalink: '/machines'
+    description: 'Content related to the machines found in the mod.'
+
+admin-shop:
+    label: 'Admin Shop'
+    permalink: '/admin-shop'
+    description: 'Content related to the admin shop.'
+
+currency:
+    label: 'Wallets / Currency'
+    permalink: '/currency'
+    description: 'Content related to wallets and currency.'
+
+commands:
+    label: 'Commands'
+    permalink: '/commands'
+    description: 'Content related to commands added by the mod.'
+
+config:
+    label: 'Configuration'
+    permalink: '/config'
+    description: "Content related to the mod's configuration."

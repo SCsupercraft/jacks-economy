@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 description: 'Learn where you can find the server config file.'
+tags: ['config']
 ---
 
 # Finding The Server Config

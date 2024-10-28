@@ -125,6 +125,7 @@ const config = {
 							label: '1.20.1',
 							path: '/1.20.1',
 							badge: true,
+							banner: 'unmaintained',
 						},
 						'1.19.2': {
 							label: '1.19.2',

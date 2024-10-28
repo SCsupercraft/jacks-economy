@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 description: 'Access the admin shop via commands.'
+tags: ['admin-shop', 'commands', 'config']
 ---
 
 # Admin Shop Command

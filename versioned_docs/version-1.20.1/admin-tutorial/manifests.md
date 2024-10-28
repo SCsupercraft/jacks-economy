@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 description: 'Create manifests for your importers and exporters.'
+tags: ['machines']
 ---
 
 # Item Manifests

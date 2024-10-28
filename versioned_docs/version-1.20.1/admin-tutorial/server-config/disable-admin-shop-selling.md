@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 description: 'Remove the ability to sell items to the shop.'
+tags: ['admin-shop', 'config']
 ---
 
 # Disable Admin Shop Selling

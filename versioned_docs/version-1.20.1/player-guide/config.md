@@ -1,6 +1,7 @@
 ---
 sidebar_position: 10
 description: 'Customize your experience'
+tags: ['config']
 ---
 
 # Config
