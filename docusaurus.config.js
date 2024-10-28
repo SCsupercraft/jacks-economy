@@ -199,11 +199,11 @@ const config = {
 						items: [
 							{
 								label: 'Player Guide',
-								to: '/docs/category/player-guide',
+								to: '/docs/1.20.1/category/player-guide',
 							},
 							{
 								label: 'Admin Tutorial',
-								to: '/docs/category/admin-tutorial',
+								to: '/docs/1.20.1/category/admin-tutorial',
 							},
 						],
 					},
@@ -230,6 +230,10 @@ const config = {
 							{
 								label: 'GitHub',
 								href: 'https://github.com/Khajiitos/JacksEconomy',
+							},
+							{
+								label: 'Edit The Wiki',
+								href: 'https://github.com/SCsupercraft/jacks-economy',
 							},
 						],
 					},
