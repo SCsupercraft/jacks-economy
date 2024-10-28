@@ -1,6 +1,6 @@
 ---
 slug: new-modpacks-channel
-title: New modpacks channel
+title: New Modpacks Channel
 authors: [flapjack]
 tags: [discord]
 ---

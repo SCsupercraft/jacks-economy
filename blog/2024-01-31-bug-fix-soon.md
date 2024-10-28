@@ -1,6 +1,6 @@
 ---
 slug: bug-fix-coming-soon
-title: Known bugs
+title: Known Bugs
 authors: [flapjack]
 tags: [discord]
 ---
