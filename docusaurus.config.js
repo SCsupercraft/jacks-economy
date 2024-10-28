@@ -228,7 +228,7 @@ const config = {
 								href: 'https://www.curseforge.com/minecraft/mc-mods/flapjacks-economy',
 							},
 							{
-								label: 'GitHub',
+								label: 'Source Code',
 								href: 'https://github.com/Khajiitos/JacksEconomy',
 							},
 							{
