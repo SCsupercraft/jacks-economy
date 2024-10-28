@@ -13,6 +13,8 @@ const config = {
 		'Automatable Economy Mod For Modpacks or Servers with Create Integration',
 	favicon: './img/favicon.png',
 
+	titleDelimiter: '-',
+
 	// Set the production url of your site here
 	url: 'https://scsupercraft.github.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
