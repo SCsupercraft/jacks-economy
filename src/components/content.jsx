@@ -46,12 +46,24 @@ export function CurseforgeLink({ link }) {
 				style={{
 					backgroundColor: '#ff784d',
 					borderRadius: '2px',
-					color: '#ffffff',
+					color: '#000',
+					textDecoration: 'none',
+					fontWeight: '500',
 					padding: '0.2rem',
 					marginBottom: '0.5rem',
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					width: 214,
+					height: 32,
 				}}
-				className="curseforgeLink"
 			>
+				<img
+					src="/jacks-economy/img/curse-download.png"
+					width={30}
+					height={30}
+					style={{ marginRight: '4px' }}
+				></img>
 				Available on Curseforge
 			</a>
 		</div>
@@ -75,7 +87,6 @@ export function ModrinthLink({ link }) {
 					color: '#000000',
 					padding: '0.2rem',
 				}}
-				className="modrinthLink"
 			>
 				Available on Modrinth
 			</a>

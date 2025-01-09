@@ -1,0 +1,48 @@
+---
+sidebar_position: 10
+description: 'Customize your experience'
+tags: ['config']
+---
+
+import noPriceTooltip from './no-price-tooltip.png'
+import priceTooltip from './price-tooltip.png'
+
+import normalTooltipFormat from './normal-tooltip-format.png'
+import alternateTooltipFormat from './alternate-tooltip-format.png'
+
+# Config
+
+:::warning[Work in progress]
+This page is incomplete and may be missing some information.
+:::
+
+You can find your config file at `config/jackseconomy-client.toml`
+
+Your config should look like this **by default.**
+
+```toml title='jackseconomy-client.toml' showLineNumbers
+hidePriceTooltips = false
+alternativeTooltipFormat = true
+#Range: 1.0 ~ 60.0
+balanceChangePopupTime = 6.0
+walletHudPositionRight = false
+walletHudPositionYOffset = 0
+```
+
+## Config Options
+
+### Hide Price Tooltips
+
+This is shown when hovering over items with importer or exporter prices.
+
+| False (default) | True |
+| --------------- | ---- |
+|<img src={priceTooltip} style={{display:'block', width: '230px'}}></img> | <img src={noPriceTooltip} style={{display:'inline-block', width: '200px'}}></img> |
+
+### Alternative Tooltip Format
+
+This is shown when hovering over items with prices and holding left-alt.
+
+| False | True (default) |
+| ----- | -------------- |
+| <img src={normalTooltipFormat} style={{display:'block', width: '250px'}}></img> | <img src={alternateTooltipFormat} style={{display:'block', width: '330px'}}></img> |

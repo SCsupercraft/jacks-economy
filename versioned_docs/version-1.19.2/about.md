@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Not started
+# Not Started
 
 :::warning[Work In Progress]
 

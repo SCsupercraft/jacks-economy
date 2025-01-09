@@ -165,11 +165,23 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			announcementBar: {
+				id: 'end-of-dev',
+				content: `Jack's Economy will not get any official development for the foreseeable future, find out more <a target="_blank" rel="noopener noreferrer" href="https://scsupercraft.github.io/jacks-economy/updates/end-of-development">here</a>.`,
+				backgroundColor: '#FFFF00',
+				textColor: '#000',
+				isCloseable: false,
+			},
+			colorMode: {
+				defaultMode: 'dark',
+				disableSwitch: false,
+				respectPrefersColorScheme: true,
+			},
 			navbar: {
 				title: "Jack's Economy",
 				logo: {
 					alt: "Jack's Economy Logo",
-					src: './img/logo2.png',
+					src: './img/logo3.png',
 				},
 				items: [
 					{

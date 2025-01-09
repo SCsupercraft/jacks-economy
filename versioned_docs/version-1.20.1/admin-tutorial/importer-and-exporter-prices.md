@@ -4,7 +4,7 @@ description: 'Learn how set up importer and exporter prices.'
 tags: ['machines', 'currency', 'commands']
 ---
 
-# Importer And Exporter Prices
+# Importer and Exporter Prices
 
 You can set prices for importing and exporting items using the `/price` command.
 

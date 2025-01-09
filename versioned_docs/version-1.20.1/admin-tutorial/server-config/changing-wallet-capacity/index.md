@@ -4,7 +4,7 @@ description: 'Change the capacity of any wallet.'
 tags: ['config', 'currency']
 ---
 
-# Changing The Capacity Of Wallets
+# Changing the Capacity of Wallets
 
 In **default currency mode** you can easily can the capacity of wallets using the **server config**, on the otherhand changing the capacity of wallets in **single item currency mode** is a bit more difficult and **requires a mod** that can change the stack size of items. In this tutorial we will be using [Bigger Stacks](https://www.curseforge.com/minecraft/mc-mods/bigger-stacks).
 
@@ -21,7 +21,7 @@ For example if you want to change the capacity of the basic wallet to $2,500 you
 
 In order to change the capacity of the wallet when in single item currency mode you'll need a mod that can change the stack size of items. In this tutorial we will be using [Bigger Stacks](https://www.curseforge.com/minecraft/mc-mods/bigger-stacks).
 
-### Changing the stack size of the dollar bill
+### Changing the Stack Size of the Dollar Bill
 
 If Bigger Stacks is **not configured** this message will appear in chat.\
 Do not worry about this, will we be configuring Bigger Stacks in this tutorial.

@@ -4,12 +4,12 @@ description: 'Learn where you can find the server config file.'
 tags: ['config']
 ---
 
-# Finding The Server Config
+# Finding the Server Config
 
 If you are a **modpack developer** your server config should be located at `defaultconfigs/jackseconomy-server.toml`\
 If you are a **server owner** it should be located at `saves/world/serverconfig/jackseconomy-server.toml`
 
-Your server config should look like this **by default**.\
+Your server config should look like this **by default.**\
 If you can not find the config file, create a new file called `jackseconomy-server.toml` and paste the below into it.
 
 Now you are ready to start changing the config.
