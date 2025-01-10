@@ -191,6 +191,7 @@ const config = {
 						label: 'Documentation',
 					},
 					{ to: '/updates', label: 'Updates', position: 'left' },
+					{ to: '/donate', label: 'Donate', position: 'left' },
 					{
 						type: 'docsVersionDropdown',
 						position: 'right',
@@ -226,14 +227,18 @@ const config = {
 								label: 'Discord',
 								href: 'https://discord.gg/3F8gBbMCXU',
 							},
+							{
+								label: 'Updates',
+								to: '/updates',
+							},
 						],
 					},
 					{
 						title: 'More',
 						items: [
 							{
-								label: 'Updates',
-								to: '/updates',
+								label: 'Donations',
+								to: '/donate',
 							},
 							{
 								label: 'Curseforge',
