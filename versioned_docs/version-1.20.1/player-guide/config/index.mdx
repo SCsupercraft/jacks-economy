@@ -10,11 +10,12 @@ import priceTooltip from './price-tooltip.png'
 import normalTooltipFormat from './normal-tooltip-format.png'
 import alternateTooltipFormat from './alternate-tooltip-format.png'
 
-# Config
+import balanceChangePopup from './balance-change-popup.png'
 
-:::warning[Work in progress]
-This page is incomplete and may be missing some information.
-:::
+import walletHudPositionRight from './wallet-hud-position-right.png'
+import walletHudPositionLeft from './wallet-hud-position-left.png'
+
+# Config
 
 You can find your config file at `config/jackseconomy-client.toml`
 
@@ -37,7 +38,7 @@ This is shown when hovering over items with importer or exporter prices.
 
 | False (default) | True |
 | --------------- | ---- |
-|<img src={priceTooltip} style={{display:'block', width: '230px'}}></img> | <img src={noPriceTooltip} style={{display:'inline-block', width: '200px'}}></img> |
+|<img src={priceTooltip} style={{display:'block', width: '230px'}}/> | <img src={noPriceTooltip} style={{display:'inline-block', width: '200px'}}/> |
 
 ### Alternative Tooltip Format
 
@@ -45,4 +46,36 @@ This is shown when hovering over items with prices and holding left-alt.
 
 | False | True (default) |
 | ----- | -------------- |
-| <img src={normalTooltipFormat} style={{display:'block', width: '250px'}}></img> | <img src={alternateTooltipFormat} style={{display:'block', width: '330px'}}></img> |
+| <img src={normalTooltipFormat} style={{display:'block', width: '250px'}}/> | <img src={alternateTooltipFormat} style={{display:'block', width: '330px'}}/> |
+
+### Balance Change Popup Time
+
+This option determines **how long in seconds** the **balance change popup** (the text in green) appears for.\
+The specified value should be in the range of `1.0 ~ 60.0` e.g. `balanceChangePopupTime = 2.5`
+
+<img src={balanceChangePopup} style={{display:'block', width: '350px'}}/>
+
+### Wallet Hud Position Right
+
+:::note
+
+The positioning of some gui elements is slightly broken when set to true.
+
+:::
+
+Determines what side of the screen the wallet hud appears on.
+
+| False (default) | True |
+| --------------- | ---- |
+| <img src={walletHudPositionLeft} style={{display:'block', width: '250px'}}/> | <img src={walletHudPositionRight} style={{display:'block', width: '330px'}}/> |
+| The hud appears on the left-hand side of the screen                          | The hud appears on the right-hand side of the screen                          |
+
+### Wallet Hud Position Y Offset
+
+:::note
+
+This can cause the hud to go off screen.
+
+:::
+
+By increasing the value the hud will be moved lower down, decreasing the value has the opposite effect.
