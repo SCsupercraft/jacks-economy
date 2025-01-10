@@ -26,3 +26,14 @@ Consider [donating](https://ko-fi.com/flapjacksmods) for more content and [updat
 
 Special thanks to [Khajiitos](https://www.curseforge.com/members/khajiitos/projects) the _amazing_ dev that made this mod what it is and
 [oRandomy](https://github.com/oRandomy) who is the amazing artist that created most of the assets and textures for this mod!
+
+## Support
+
+### Jack's Economy
+
+If you want to support **Flapjack,** the creator of Jack's Economy, check out his [ko-fi page](https://ko-fi.com/flapjacksmods).
+If you want to support the developer of Jack's Economy, **Khajiitos**, you can find their ko-fi page [here](https://ko-fi.com/khajiitos).
+
+### Jack's Economy Website
+
+If you want to support **SCsupercraft,** the creator of this site, check out his [ko-fi page](https://ko-fi.com/scsupercraft).
