@@ -121,8 +121,13 @@ const config = {
 					sidebarPath: './sidebars.js',
 
 					includeCurrentVersion: false,
-					lastVersion: '1.20.1',
+					lastVersion: '1.20.1-forked',
 					versions: {
+						'1.20.1-forked': {
+							label: '1.20.1 (Forked)',
+							path: '/1.20.1-forked',
+							badge: true,
+						},
 						'1.20.1': {
 							label: '1.20.1',
 							path: '/1.20.1',
