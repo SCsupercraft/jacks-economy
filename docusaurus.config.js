@@ -154,6 +154,7 @@ const config = {
 					postsPerPage: 'ALL',
 					blogSidebarTitle: 'All updates',
 					blogSidebarCount: 'ALL',
+					blogTitle: 'Updates',
 					editUrl:
 						'https://github.com/SCsupercraft/jacks-economy/tree/main/',
 					onInlineTags: 'warn',
