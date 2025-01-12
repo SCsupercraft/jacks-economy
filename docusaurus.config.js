@@ -173,7 +173,7 @@ const config = {
 		({
 			announcementBar: {
 				id: 'end-of-dev',
-				content: `Jack's Economy will not get any official development for the foreseeable future, find out more <a target="_blank" rel="noopener noreferrer" href="https://scsupercraft.github.io/jacks-economy/updates/end-of-development">here</a>.`,
+				content: `Jack's Economy will not get any official development for a while, find out more <a target="_blank" rel="noopener noreferrer" href="https://scsupercraft.github.io/jacks-economy/updates/end-of-development">here</a>. Please use <a target="_blank" rel="noopener noreferrer" href="https://curseforge.com/minecraft/mc-mods/flapjacks-economy-forked">Jack's Economy (Forked)</a> instead.`,
 				backgroundColor: '#FFFF00',
 				textColor: '#000',
 				isCloseable: false,
