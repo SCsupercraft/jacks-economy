@@ -173,7 +173,9 @@ const config = {
 		({
 			announcementBar: {
 				id: 'end-of-dev',
-				content: `Jack's Economy will not get any official development for a while, find out more <a target="_blank" rel="noopener noreferrer" href="https://scsupercraft.github.io/jacks-economy/updates/end-of-development">here</a>. Please use <a target="_blank" rel="noopener noreferrer" href="https://curseforge.com/minecraft/mc-mods/flapjacks-economy-forked">Jack's Economy (Forked)</a> instead.`,
+				content: `Jack's Economy will not get any official development for a while, 
+				find out more <a target="_blank" rel="noopener noreferrer" href="https://scsupercraft.github.io/jacks-economy/updates/end-of-development">here</a>. 
+				Please use <a href="http://localhost:3000/jacks-economy/download#jacks-economy-forked">Jack's Economy (Forked)</a> instead.`,
 				backgroundColor: '#FFFF00',
 				textColor: '#000',
 				isCloseable: false,
@@ -197,7 +199,8 @@ const config = {
 						label: 'Documentation',
 					},
 					{ to: '/updates', label: 'Updates', position: 'left' },
-					{ to: '/donate', label: 'Donate', position: 'left' },
+					{ to: '/download', label: 'Downloads', position: 'left' },
+					{ to: '/donate', label: 'Donations', position: 'right' },
 					{
 						type: 'docsVersionDropdown',
 						position: 'right',
@@ -233,23 +236,14 @@ const config = {
 								label: 'Discord',
 								href: 'https://discord.gg/3F8gBbMCXU',
 							},
-							{
-								label: 'Updates',
-								to: '/updates',
-							},
+							{ label: 'Updates', to: '/updates' },
 						],
 					},
 					{
 						title: 'More',
 						items: [
-							{
-								label: 'Donations',
-								to: '/donate',
-							},
-							{
-								label: 'Curseforge',
-								href: 'https://www.curseforge.com/minecraft/mc-mods/flapjacks-economy',
-							},
+							{ label: 'Donations', to: '/donate' },
+							{ label: 'Downloads', to: '/download' },
 							{
 								label: 'Source Code',
 								href: 'https://github.com/Khajiitos/JacksEconomy',
