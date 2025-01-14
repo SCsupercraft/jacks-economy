@@ -38,6 +38,7 @@ export function CurseforgeLink({ link }) {
 			style={{
 				paddingTop: '0.2rem',
 				paddingBottom: '0.2rem',
+				display: 'inline-block',
 			}}
 		>
 			<a
@@ -76,6 +77,7 @@ export function ModrinthLink({ link }) {
 			style={{
 				paddingTop: '0.2rem',
 				paddingBottom: '0.2rem',
+				display: 'inline-block',
 			}}
 		>
 			<a
@@ -84,10 +86,24 @@ export function ModrinthLink({ link }) {
 				style={{
 					backgroundColor: '#1bd96a',
 					borderRadius: '2px',
-					color: '#000000',
+					color: '#000',
+					textDecoration: 'none',
+					fontWeight: '500',
 					padding: '0.2rem',
+					marginBottom: '0.5rem',
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					width: 206,
+					height: 32,
 				}}
 			>
+				<img
+					src="/jacks-economy/img/modrinth-download.png"
+					width={30}
+					height={30}
+					style={{ marginRight: '6px', padding: '1.5px' }}
+				></img>
 				Available on Modrinth
 			</a>
 		</div>
