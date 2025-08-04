@@ -249,7 +249,7 @@ const config = {
 								href: 'https://github.com/Khajiitos/JacksEconomy',
 							},
 							{
-								label: 'Edit The Wiki',
+								label: 'Edit the Wiki',
 								href: 'https://github.com/SCsupercraft/jacks-economy',
 							},
 						],
